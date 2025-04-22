@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Growth Services - Ibad Tech</title>
+    <style>
+        :root {
+            --primary-color: #405de6;
+            --secondary-color: #5851db;
+            --accent-color: #833ab4;
+            --text-color: #333;
+            --light-gray: #f5f5f5;
+            --white: #ffffff;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--light-gray);
+            color: var(--text-color);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            color: var(--white);
+            padding: 20px 0;
+            text-align: center;
+            border-radius: 0 0 10px 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .tagline {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+        
+        .service-card {
+            background-color: var(--white);
+            border-radius: 10px;
+            padding: 25px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+        }
+        
+        .service-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            border-bottom: 2px solid var(--light-gray);
+            padding-bottom: 10px;
+        }
+        
+        .service-features {
+            margin: 15px 0;
+        }
+        
+        .service-features li {
+            margin-bottom: 8px;
+            list-style-type: none;
+            position: relative;
+            padding-left: 25px;
+        }
+        
+        .service-features li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--primary-color);
+            font-weight: bold;
+        }
+        
+        .price-calculator {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: var(--light-gray);
+            border-radius: 8px;
+        }
+        
+        .input-group {
+            margin-bottom: 15px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+        
+        input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        
+        .price-display {
+            font-size: 24px;
+            font-weight: bold;
+            color: var(--accent-color);
+            text-align: center;
+            margin-top: 15px;
+            padding: 10px;
+            background-color: var(--white);
+            border-radius: 5px;
+        }
+        
+        .unit-price {
+            font-size: 14px;
+            color: #666;
+            display: block;
+            margin-top: 5px;
+        }
+        
+        .order-btn {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        .order-btn:hover {
+            opacity: 0.9;
+            transform: translateY(-2px);
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            background-color: var(--white);
+            border-radius: 10px 10px 0 0;
+            box-shadow: 0 -4px 6px rgba(0,0,0,0.05);
+        }
+        
+        .contact-info {
+            margin-top: 15px;
+        }
+        
+        .whatsapp-btn {
+            display: inline-block;
+            background-color: #25D366;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        
+        @media (max-width: 768px) {
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .container {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Ibad Tech</div>
+            <div class="tagline">Professional Instagram Growth Services</div>
+        </div>
+    </header>
+    
+    <div class="container">
+        <h2>Our Instagram Promotion Services</h2>
+        <p>Boost your Instagram presence with our high-quality services</p>
+        
+        <div class="services-grid">
+            <!-- Service 1: Instagram Reel Views -->
+            <div class="service-card">
+                <div class="service-title">Instagram Reel Views</div>
+                <div class="service-features">
+                    <ul>
+                        <li>High-Quality Views from Real Users</li>
+                        <li>Instant Start Delivery</li>
+                        <li>300k-500k views per hour</li>
+                        <li>Lifetime Guarantee</li>
+                        <li>Cancel Anytime</li>
+                    </ul>
+                </div>
+                <div class="price-calculator">
+                    <div class="input-group">
+                        <label for="reel-views">Number of Views (in thousands):</label>
+                        <input type="number" id="reel-views" min="1" max="50000" value="5" step="1">
+                    </div>
+                    <div class="price-display">
+                        ₹<span id="reel-price">10</span>
+                        <span class="unit-price">(₹10 per 5k views)</span>
+                    </div>
+                    <button class="order-btn" data-service="Instagram Reel Views" data-unit="k views">Order Now</button>
+                </div>
+            </div>
+            
+            <!-- Service 2: Instagram Followers -->
+            <div class="service-card">
+                <div class="service-title">Instagram Followers</div>
+                <div class="service-features">
+                    <ul>
+                        <li>Real, Active Followers</li>
+                        <li>Gradual Delivery for Safety</li>
+                        <li>High Retention Rate</li>
+                        <li>No Password Required</li>
+                        <li>24/7 Customer Support</li>
+                    </ul>
+                </div>
+                <div class="price-calculator">
+                    <div class="input-group">
+                        <label for="followers">Number of Followers (in thousands):</label>
+                        <input type="number" id="followers" min="1" max="100" value="1" step="1">
+                    </div>
+                    <div class="price-display">
+                        ₹<span id="follower-price">180</span>
+                        <span class="unit-price">(₹180 per 1k followers)</span>
+                    </div>
+                    <button class="order-btn" data-service="Instagram Followers" data-unit="k followers">Order Now</button>
+                </div>
+            </div>
+            
+            <!-- Service 3: Instagram Likes -->
+            <div class="service-card">
+                <div class="service-title">Instagram Likes</div>
+                <div class="service-features">
+                    <ul>
+                        <li>Genuine Likes on Your Posts</li>
+                        <li>Fast Delivery</li>
+                        <li>Targeted by Location/Niche</li>
+                        <li>No Drop Guarantee</li>
+                        <li>Secure Payment</li>
+                    </ul>
+                </div>
+                <div class="price-calculator">
+                    <div class="input-group">
+                        <label for="likes">Number of Likes (in thousands):</label>
+                        <input type="number" id="likes" min="1" max="100" value="1" step="1">
+                    </div>
+                    <div class="price-display">
+                        ₹<span id="like-price">10</span>
+                        <span class="unit-price">(₹10 per 1k likes)</span>
+                    </div>
+                    <button class="order-btn" data-service="Instagram Likes" data-unit="k likes">Order Now</button>
+                </div>
+            </div>
+            
+            <!-- Service 4: Instagram Comments -->
+            <div class="service-card">
+                <div class="service-title">Instagram Comments</div>
+                <div class="service-features">
+                    <ul>
+                        <li>Custom Comments</li>
+                        <li>From Real Accounts</li>
+                        <li>Natural Engagement</li>
+                        <li>Multiple Language Options</li>
+                        <li>Gradual Delivery</li>
+                    </ul>
+                </div>
+                <div class="price-calculator">
+                    <div class="input-group">
+                        <label for="comments">Number of Comments:</label>
+                        <input type="number" id="comments" min="10" max="1000" value="10" step="10">
+                    </div>
+                    <div class="price-display">
+                        ₹<span id="comment-price">100</span>
+                        <span class="unit-price">(₹10.00 per comment)</span>
+                    </div>
+                    <button class="order-btn" data-service="Instagram Comments" data-unit=" comments">Order Now</button>
+                </div>
+            </div>
+            
+            <!-- Service 5: Instagram Story Views -->
+            <div class="service-card">
+                <div class="service-title">Instagram Story Views</div>
+                <div class="service-features">
+                    <ul>
+                        <li>Real Story Views</li>
+                        <li>Instant Start</li>
+                        <li>High Retention</li>
+                        <li>Boosts Organic Reach</li>
+                        <li>24/7 Support</li>
+                    </ul>
+                </div>
+                <div class="price-calculator">
+                    <div class="input-group">
+                        <label for="story-views">Number of Views (in thousands):</label>
+                        <input type="number" id="story-views" min="1" max="100" value="1" step="1">
+                    </div>
+                    <div class="price-display">
+                        ₹<span id="story-price">50</span>
+                        <span class="unit-price">(₹50 per 1k views)</span>
+                    </div>
+                    <button class="order-btn" data-service="Instagram Story Views" data-unit="k views">Order Now</button>
+                </div>
+            </div>
+            
+            <!-- Service 6: Instagram Impressions -->
+            <div class="service-card">
+                <div class="service-title">Instagram Impressions</div>
+                <div class="service-features">
+                    <ul>
+                        <li>Increase Post Visibility</li>
+                        <li>Algorithm Boost</li>
+                        <li>Fast Delivery</li>
+                        <li>Real Accounts</li>
+                        <li>Safe for Your Account</li>
+                    </ul>
+                </div>
+                <div class="price-calculator">
+                    <div class="input-group">
+                        <label for="impressions">Number of Impressions (in thousands):</label>
+                        <input type="number" id="impressions" min="1" max="1000" value="1" step="1">
+                    </div>
+                    <div class="price-display">
+                        ₹<span id="impression-price">40</span>
+                        <span class="unit-price">(₹40 per 1k impressions)</span>
+                    </div>
+                    <button class="order-btn" data-service="Instagram Impressions" data-unit="k impressions">Order Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <div class="logo">Ibad Tech</div>
+            <div class="contact-info">
+                <p>Email: contact@ibadtech.com | Phone: <a href="tel:7056836166">7056836166</a></p>
+                <a href="https://wa.me/917056836166" class="whatsapp-btn">Contact on WhatsApp</a>
+                <p>© 2023 Ibad Tech. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Price calculation functions
+        document.addEventListener('DOMContentLoaded', function() {
+            // Reel Views Calculator (₹10 per 5k views)
+            const reelViewsInput = document.getElementById('reel-views');
+            const reelPriceDisplay = document.getElementById('reel-price');
+            
+            reelViewsInput.addEventListener('input', function() {
+                const thousands = parseInt(this.value) || 0;
+                const price = Math.ceil(thousands / 5) * 10;
+                reelPriceDisplay.textContent = price;
+            });
+            
+            // Followers Calculator (₹180 per 1k followers)
+            const followersInput = document.getElementById('followers');
+            const followerPriceDisplay = document.getElementById('follower-price');
+            
+            followersInput.addEventListener('input', function() {
+                const thousands = parseInt(this.value) || 0;
+                const price = thousands * 180;
+                followerPriceDisplay.textContent = price;
+            });
+            
+            // Likes Calculator (₹10 per 1k likes)
+            const likesInput = document.getElementById('likes');
+            const likePriceDisplay = document.getElementById('like-price');
+            
+            likesInput.addEventListener('input', function() {
+                const thousands = parseInt(this.value) || 0;
+                const price = thousands * 10;
+                likePriceDisplay.textContent = price;
+            });
+            
+            // Comments Calculator (₹10 per comment)
+            const commentsInput = document.getElementById('comments');
+            const commentPriceDisplay = document.getElementById('comment-price');
+            
+            commentsInput.addEventListener('input', function() {
+                const comments = parseInt(this.value) || 0;
+                const price = comments * 10;
+                commentPriceDisplay.textContent = price;
+            });
+            
+            // Story Views Calculator (₹50 per 1k views)
+            const storyViewsInput = document.getElementById('story-views');
+            const storyPriceDisplay = document.getElementById('story-price');
+            
+            storyViewsInput.addEventListener('input', function() {
+                const thousands = parseInt(this.value) || 0;
+                const price = thousands * 50;
+                storyPriceDisplay.textContent = price;
+            });
+            
+            // Impressions Calculator (₹40 per 1k impressions)
+            const impressionsInput = document.getElementById('impressions');
+            const impressionPriceDisplay = document.getElementById('impression-price');
+            
+            impressionsInput.addEventListener('input', function() {
+                const thousands = parseInt(this.value) || 0;
+                const price = thousands * 40;
+                impressionPriceDisplay.textContent = price;
+            });
+            
+            // WhatsApp Order System
+            document.querySelectorAll('.order-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const service = this.getAttribute('data-service');
+                    const unit = this.getAttribute('data-unit');
+                    const card = this.closest('.service-card');
+                    const quantity = card.querySelector('input[type="number"]').value;
+                    const price = card.querySelector('.price-display span').textContent;
+                    
+                    const whatsappMsg = `Hello Ibad Tech! I want to order:\n\n*Service:* ${service}\n*Quantity:* ${quantity}${unit}\n*Amount:* ₹${price}\n\n*My Instagram Handle:* \n*Payment Method:* (UPI/Paytm/Other)\n\nPlease confirm my order.`;
+                    
+                    window.open(`https://wa.me/917056836166?text=${encodeURIComponent(whatsappMsg)}`, '_blank');
+                });
+            });
+            
+            // Initialize all prices on page load
+            reelViewsInput.dispatchEvent(new Event('input'));
+            followersInput.dispatchEvent(new Event('input'));
+            likesInput.dispatchEvent(new Event('input'));
+            commentsInput.dispatchEvent(new Event('input'));
+            storyViewsInput.dispatchEvent(new Event('input'));
+            impressionsInput.dispatchEvent(new Event('input'));
+        });
+    </script>
+</body>
+</html>
